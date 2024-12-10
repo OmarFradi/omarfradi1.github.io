@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كوكب نبتون</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>مرحبًا بك في موقع كوكب نبتون</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="propos.html">للتواصل معنا</a></li>
+        <li><a href="galerie.html">معرض الصور</a></li>
+        <li><a href="caracteristiques.html">خصائص كوكب نبتون</a></li>
+        <li><a href="histoire.html">تاريخ نبتون</a></li>
+        <li><a href="missions.html">المهام الفضائية</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>الرجاء ملء التفاصيل الشخصية قبل البدء في الاختبار</h2>
+
+    <form action="" method="get">
+        <p>الإسم</p>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <p>اللقب</p>
+        <input type="text" id="surname" name="surname" required><br><br>
+
+        <p>العمر</p>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <button type="submit">ابدأ الاختبار</button>
+    </form>
+
+    <div id="quiz-section">
+        <h3>استمتع بالإجابة على بعض الأسئلة حول كوكب نبتون</h3>
+
+        <form>
+            <div class="question">
+                <p>ما هو لون كوكب نبتون؟</p>
+                <p>
+                    <input type="radio" name="q1" id="q1-a"> أخضر
+                </p>
+                <p>
+                    <input type="radio" name="q1" id="q1-b"> أزرق
+                </p>
+                <p>
+                    <input type="radio" name="q1" id="q1-c"> أحمر
+                </p>
+            </div>
+
+            <div class="question">
+                <p>من اكتشف كوكب نبتون؟</p>
+                <p>
+                    <input type="radio" name="q2" id="q2-a"> غاليليو غاليلي
+                </p>
+                <p>
+                    <input type="radio" name="q2" id="q2-b"> يوهان غالي
+                </p>
+                <p>
+                    <input type="radio" name="q2" id="q2-c"> كوبرنيكوس
+                </p>
+            </div>
+
+            <div class="question">
+                <p>ما هو أكبر قمر لكوكب نبتون؟</p>
+                <p>
+                    <input type="radio" name="q3" id="q3-a"> تريتون
+                </p>
+                <p>
+                    <input type="radio" name="q3" id="q3-b"> قمر بلوتو
+                </p>
+                <p>
+                    <input type="radio" name="q3" id="q3-c"> ديماس
+                </p>
+            </div>
+
+            <p id="taille">تعرف على الإجابات الصحيحة من خلال المعلومات المقدمة في موقعنا</p>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
